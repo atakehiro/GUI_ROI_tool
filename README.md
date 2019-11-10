@@ -4,6 +4,7 @@ the GUI tool for taking a region of interest (ROI) from a fluorescence image
 
 # Dependencies
 MATLAB
+
 Image processing toolbox
 
 # Usage

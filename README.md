@@ -16,6 +16,18 @@ Image must be the 8 or 16 bit grascale tif image.
 
 # Usage of GUI
 
+平均化フィルタと二値化を組み合わせて細胞領域を取り出す。
+
+Get area→クリックしたところをつながった部分をとる
+
+Get line→クリックした2点の間の軸索探索
+
+パラメータを確認しながら、ROI取りできる。
+赤：元画像
+緑：ワークスペース
+青：取得したROI
 
 
 # Demos
+You can use the "demo_image_8bit.tif" or "demo_image_16bit.tif" for demos.
+"demo_image_8bit.tif" または "demo_image_16bit.tif"をデモとして使用できる。

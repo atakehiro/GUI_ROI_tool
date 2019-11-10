@@ -1,6 +1,6 @@
 # GUI_ROI_tool
 the GUI tool for taking a region of interest (ROI) from a fluorescence image
-<img src="demo.png" width="500" align="right">
+<img src="demo.png" width="500" align="below">
 # Installation
 MATLAB
 

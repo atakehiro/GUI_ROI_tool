@@ -5,7 +5,7 @@ the GUI tool for taking a region of interest (ROI) from a fluorescence image
 # Dependencies
 MATLAB
 
-Image processing toolbox
+Image Processing Toolbox
 
 # Usage
 Open "Get_ROI.m" and run the code (F5 or RUN). Select the image (tif file).

@@ -33,6 +33,7 @@ You can use the "demo_image_8bit.tif" or "demo_image_16bit.tif" for demos.
 
 ## Author
 Takehiro Ajioka 
+E-mail:1790651m@stu.kobe-u.ac.jp
 
 
 # Affiliation

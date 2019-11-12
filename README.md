@@ -31,7 +31,7 @@ You can use the "demo_image_8bit.tif" or "demo_image_16bit.tif" for demos.
 "demo_image_8bit.tif" または "demo_image_16bit.tif"をデモとして使用できる。
 
 
-## Author
+# Author
 Takehiro Ajioka 
 
 E-mail:1790651m@stu.kobe-u.ac.jp

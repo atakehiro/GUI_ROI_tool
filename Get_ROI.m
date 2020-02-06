@@ -1,11 +1,12 @@
-% tif file‚Ìæ“ª‚Ì‰æ‘œ‚ğ“Ç‚İæ‚Á‚ÄROIæ‚èGUI‚ğ‹N“®‚·‚éB
-% F5‚Ü‚½‚ÍÀsƒ{ƒ^ƒ“‚ÅÀs
-% ‰æ‘œ‚Í 8 bit‚Ü‚½‚Í 16 bit‚ÌƒOƒŒ[ƒXƒP[ƒ‹‰æ‘œ
+% tif fileã®å…ˆé ­ã®ç”»åƒã‚’èª­ã¿å–ã£ã¦ROIå–ã‚ŠGUIã‚’èµ·å‹•ã™ã‚‹ã€‚
+% F5ã¾ãŸã¯å®Ÿè¡Œãƒœã‚¿ãƒ³ã§å®Ÿè¡Œ
+% ç”»åƒã¯ 8 bitã¾ãŸã¯ 16 bitã®ã‚°ãƒ¬ãƒ¼ã‚¹ã‚±ãƒ¼ãƒ«ç”»åƒ
 %%
 % Copyright:
 % 2019, Takehiro Ajioka; 
 % License: MIT License
 %%
+addpath('function')
 tic
 [file, file_path] = uigetfile('*.tif');
 file_info = imfinfo([file_path, file]);
@@ -14,7 +15,7 @@ d2 = file_info(1).Width;
 bit = file_info(1).BitDepth;
 t = 1;
 image = double(imread([file_path, file], t));
-disp('ƒf[ƒ^“Ç‚İæ‚èŠ®—¹')
+disp('ãƒ‡ãƒ¼ã‚¿èª­ã¿å–ã‚Šå®Œäº†')
 %%
 img =  image /(2^(bit + 8)) * (2^8); %cast(image,'uint32')
 gui_ROI(img)
